@@ -1,0 +1,82 @@
+$breakpoint-max: 768px;
+
+.header{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    .home_interior_picture{
+        width: 100%;
+        background:no-repeat center/cover url("../assets/svg/home_interior.svg");
+        height: 550px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .card_container{
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.82);
+        margin: 0 24px;
+        width: 100%;
+
+        p{
+            margin-top: 20px;
+            font: normal 400 20px/normal Poppins;
+            color: #000;
+        }
+
+        p+p{
+            margin-top: 0;
+            font: normal 600 24px/normal Poppins;
+            color: #241330;
+        }
+
+        input[type="button"]{
+            margin-top: 20px;
+            font: normal 600 20px/normal Poppins;
+            color: #fff;
+            padding: 16px 32px;
+            background-color: #4B2A63;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
+
+
+@media only screen and (min-width: $breakpoint-max) {
+    .header{
+        align-items: flex-start;
+        height: fit-content;
+        height: 612px;
+
+        .home_interior_picture{
+            position: absolute;
+            height: 612px;
+            width: 60%;
+            left: 50px;
+        }
+    
+        .card_container{
+            align-self: center;
+            width: 650px;
+            padding: 48px;
+            position: relative; 
+            margin-left: auto;
+            margin-right: 64px;
+    
+            p{
+                margin-top: 0;
+            }
+    
+            input[type="button"]{
+                margin-top: 40px;
+                word-wrap:break-word;
+                width: 100%;
+            }
+        }
+    }
+}

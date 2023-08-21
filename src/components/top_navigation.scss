@@ -1,0 +1,103 @@
+$breakpoint-max: 768px;
+
+
+/* Colors */
+$desert_storm: #f8f8f8;
+$honey_flower: #451A64;
+$black: #000;
+
+.top_navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: $desert_storm ;
+
+    .logo_section{
+        display: flex;
+        width: 100%;
+
+        .logo{
+            background: no-repeat center/100% url("../assets/svg/land_interiors_logo.svg");
+            width: 111px;
+            height: 111px;
+            display: inline-block;
+        }
+    
+        .join_section{
+            display: none;
+
+            a{
+                text-decoration: none;
+                font: normal 500 20px/normal Poppins;
+                color: $honey_flower;
+            }
+
+            a+a{
+                margin-left: 48px
+            }
+        }
+    }
+    
+    .links{
+        display: inline-block;
+
+        span{
+            background: no-repeat center/100% url("../assets/svg/dashicons_menu-alt.svg");
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+        }
+
+        ul{
+            display: none;
+            list-style-type: none;
+
+            li{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $breakpoint-max) {
+    .top_navigation{
+        flex-wrap: wrap;
+
+        .logo_section{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                  
+            .join_section{
+                display: inline-block;
+            }
+        }
+        
+        .links{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 111px;
+            width: 100%;
+
+            span{
+                display: none;
+            }
+    
+            ul{
+                display: flex;
+
+                li{
+                    margin: 38px;
+                    a{
+                        text-decoration: none;
+                        font: normal 400 20px/normal Poppins;
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
