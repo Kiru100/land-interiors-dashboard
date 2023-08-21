@@ -1,4 +1,5 @@
 $breakpoint-max: 768px;
+$breakpoint-large: 1920px;
 
 .header{
     height: 550px;
@@ -76,6 +77,38 @@ $breakpoint-max: 768px;
                 margin-top: 40px;
                 word-wrap:break-word;
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $breakpoint-large){
+    .header{
+       margin-top: 68px;
+
+        .home_interior_picture{
+            max-width: 1090px;
+            left: 0;
+            margin-left: 142px;
+        }
+    
+        .card_container{
+            height: 404px;
+            width: 997px;
+            padding: 60px;
+    
+            p{
+                font-size: 36px;
+            }
+
+            p+p{
+                font-size: 48px;
+            }
+    
+            input[type="button"]{
+                max-width: 630px;
+                padding: 25px 50px;
+                margin-top: 44px;
             }
         }
     }
