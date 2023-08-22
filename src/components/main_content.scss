@@ -69,42 +69,57 @@ $breakpoint-large: 1920px;
     .three_easy_steps{
         margin-top: 64px;
 
-        h2{
-            span{
-
-                &:nth-of-type(1){
-                    font: normal 500 20px/normal Poppins;
-                    color: #241330;
-                    display: block;                
-                }
-                &:nth-of-type(2){
-                    font: normal 600 24px/normal Poppins;
-                    color: #241330;
-                    display: block;  
-                }
-
-            }
-        }
-
         &::before{
             content: "";
-            background: no-repeat center/100% url("../assets/svg/steps_background.svg");
+            background: no-repeat center/cover url("../assets/svg/steps_background.svg");
             width: 100%;
             height: 808px;
-            display: inline-block;
             position: absolute;
             z-index: -1;
             
         }
 
-        section{
-            h3{
-                font: normal 600 24px/normal Poppins;
-                color: #4B2A63;
+        .steps_content{
+            background: rgba(255, 255, 255, 0.82);
+            height: 808px;
+            width: 70%;
+            max-width: 639px;
+
+            h2{
+                padding-left: 48px;
+                padding-top: 48px;
+                text-align: start;
+
+                span{
+                    &:nth-of-type(1){
+                        margin-top: 71px;
+                        font: normal 500 30px/normal Poppins;
+                        color: #241330;
+                        display: block;                
+                    }
+                    &:nth-of-type(2){
+                        font: normal 500 40px/normal Poppins; 
+                        color: #241330;
+                        display: block;  
+                    }
+    
+                }
             }
-            p{
-                font: normal 400 20px/normal Poppins;
-                color: #000;
+
+            section{
+                padding-left: 48px;
+                padding-top: 48px;
+
+                h3{
+                    font: normal 600 24px/normal Poppins;
+                    color: #4B2A63;
+                }
+
+                p{
+                    max-width: 440px;
+                    font: normal 400 20px/normal Poppins;
+                    color: #000;
+                }
             }
         }
     }
@@ -154,10 +169,13 @@ font-size: 18px;
         }
     
         .three_easy_steps{
-    
+            display: flex;
+            align-items: center;
+            
             h2{
                 span{
-    
+                    text-align: center;
+                    
                     &:nth-of-type(1){
                                  
                     }
@@ -169,15 +187,22 @@ font-size: 18px;
             }
     
             &::before{
-                               
+                max-width: 1386px;   
+                height: 924px;
+                right: 0;    
             }
-    
-            section{
-                h3{
+            .steps_content{
+                max-width: 898px;;
 
-                }
-                p{
-
+                section{
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        margin: 0 auto;
+                        text-align: center;
+                        max-width: 440px;
+                    }   
                 }
             }
         }

@@ -19,25 +19,27 @@ function MainContent(){
                 </section>
             </div>
             <div className="three_easy_steps">
-                <h2>
-                    <span>Make your dream interior in</span>
-                    <span>3 easy steps</span>
-                </h2>
-                <section>
-                    <h3>Explore</h3>
-                    <p>Explore more than just modular design ideas with our experts.</p>
-                </section>
 
-                <section>
-                    <h3>Design</h3>
-                    <p>Complete the designs with painting, flooring and other decor solutions.</p>
-                </section>
+                <div className="steps_content"> 
+                    <h2>
+                        <span>Make your dream interior in</span>
+                        <span>3 easy steps</span>
+                    </h2>
+                    <section>
+                        <h3>Explore</h3>
+                        <p>Explore more than just modular design ideas with our experts.</p>
+                    </section>
 
-                <section>
-                    <h3>Move-in</h3>
-                    <p>Move in with ease, with our hassle-free civil work and installation services.</p>
-                </section>
+                    <section>
+                        <h3>Design</h3>
+                        <p>Complete the designs with painting, flooring and other decor solutions.</p>
+                    </section>
 
+                    <section>
+                        <h3>Move-in</h3>
+                        <p>Move in with ease, with our hassle-free civil work and installation services.</p>
+                    </section>
+                </div>
             </div>
         </div>
     )
