@@ -1,5 +1,4 @@
 import "./main_content.scss";
-import "./what_we_do.scss";
 
 function MainContent(){
     return(
@@ -63,6 +62,18 @@ function MainContent(){
                 </div>
                 <p className="what_we_do_paragraph">In the modular kitchen, the focus is on efficient design with durable materials and ample storage solutions. The bedroom aims to create a cozy and relaxing atmosphere through soothing colors, comfortable bedding, and thoughtful lighting, often enhanced by personal decor touches. </p>
             </div>
+            <div className="our_project">
+                <h2>Our Projects</h2>
+                <section>
+                    <span id="first_project" className="big_image"></span>
+                    <span id="second_project" className="wide_image"></span>
+                </section>
+                <section>
+                    <span id="third_project" className="wide_image"></span>
+                    <span id="fourth_project" className="big_image"></span>
+                </section>
+            </div>
+        
         </div>
     )
 }
