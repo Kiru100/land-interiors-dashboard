@@ -68,7 +68,8 @@ $breakpoint-large: 1920px;
 
     .three_easy_steps{
         margin-top: 64px;
-
+        position: relative;
+        
         &::before{
             content: "";
             background: no-repeat center/cover url("../assets/svg/steps_background.svg");
@@ -160,9 +161,7 @@ $breakpoint-large: 1920px;
                 }
         
                 p{  
-
-font-size: 18px;
-
+                    font-size: 18px;
                 }
             }
     
@@ -170,6 +169,7 @@ font-size: 18px;
     
         .three_easy_steps{
             display: flex;
+            height: 924px;
             align-items: center;
             
             h2{
@@ -182,7 +182,6 @@ font-size: 18px;
                     &:nth-of-type(2){
                          
                     }
-    
                 }
             }
     
