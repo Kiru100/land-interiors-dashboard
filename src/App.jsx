@@ -11,7 +11,7 @@ function App() {
             <Header/>
             <MainContent/>
         </>
-    )
+        )
     }
 
-export default App
+export default App;
