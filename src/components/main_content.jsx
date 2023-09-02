@@ -61,7 +61,7 @@ function MainContent(){
                         <p>Home office</p>
                     </section>
                 </div>
-                <p className="what_we_do_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla</p>
+                <p className="what_we_do_paragraph">In the modular kitchen, the focus is on efficient design with durable materials and ample storage solutions. The bedroom aims to create a cozy and relaxing atmosphere through soothing colors, comfortable bedding, and thoughtful lighting, often enhanced by personal decor touches. </p>
             </div>
         </div>
     )
