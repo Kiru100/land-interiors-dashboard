@@ -5,6 +5,16 @@ $breakpoint-large: 1920px;
 .main_content{
     margin-top: 84px;
 
+    // &::before{
+    //     content: "";
+    //     background: no-repeat left/100% url("../assets/svg/irregularbg_1.svg");
+    //     width: 100%;
+    //     height: 100vh;
+    //     display: inline-block;
+    //     position: absolute;
+    //     z-index: -1;
+    // }
+
     h2{
         font: normal 500 24px/normal Poppins;
         color: #000;
