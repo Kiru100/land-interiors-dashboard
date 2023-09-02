@@ -2,7 +2,8 @@ $breakpoint-max: 768px;
 $breakpoint-large: 1920px;
 
 .what_we_do{
-    padding: 48px;
+    padding: 0 48px 48px;
+    margin-top: 98px;
 
     h2{
         font: normal 500 36px/normal Poppins;
@@ -13,7 +14,7 @@ $breakpoint-large: 1920px;
     .what_we_do_cards{
 
         section{
-            padding-top: 40px;
+            padding-top: 48px;
 
             span{
                 display: inline-block;
@@ -58,8 +59,8 @@ $breakpoint-large: 1920px;
 
 @media only screen and (min-width: $breakpoint-max){
     .what_we_do{
-        padding: 48px;
-    
+        padding: 0px 48px 48px;
+
         h2{
             text-align: center;
         }
@@ -88,7 +89,7 @@ $breakpoint-large: 1920px;
 
 @media only screen and (min-width: $breakpoint-large){
     .what_we_do{
-    
+        
         h2{
            
         }
