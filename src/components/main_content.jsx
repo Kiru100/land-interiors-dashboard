@@ -1,4 +1,5 @@
 import "./main_content.scss";
+import "./what_we_do.scss";
 
 function MainContent(){
     return(
@@ -19,7 +20,6 @@ function MainContent(){
                 </section>
             </div>
             <div className="three_easy_steps">
-
                 <div className="steps_content"> 
                     <h2>
                         <span>Make your dream interior in</span>
@@ -40,6 +40,28 @@ function MainContent(){
                         <p>Move in with ease, with our hassle-free civil work and installation services.</p>
                     </section>
                 </div>
+            </div>
+            <div className="what_we_do">
+                <h2>What we do?</h2>
+                <div className="what_we_do_cards">
+                    <section className="modular_kitchen">
+                        <span></span>
+                        <p>Modular Kitchen</p>
+                    </section>
+                    <section className="bedroom">
+                        <span></span>
+                        <p>Bedroom</p>
+                    </section>
+                    <section className="living_room">
+                        <span></span>
+                        <p>Living room</p>
+                    </section>
+                    <section className="home_office">
+                        <span></span>
+                        <p>Home office</p>
+                    </section>
+                </div>
+                <p className="what_we_do_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla</p>
             </div>
         </div>
     )
